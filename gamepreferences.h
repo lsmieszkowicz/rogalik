@@ -6,6 +6,9 @@ class GamePreferences
 {
 public:
     GamePreferences();
+private:
+    bool running;
+
 };
 
 #endif // GAMEPREFERENCES_H

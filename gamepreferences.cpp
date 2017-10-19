@@ -2,5 +2,5 @@
 
 GamePreferences::GamePreferences()
 {
-
+    this->running = true;
 }
