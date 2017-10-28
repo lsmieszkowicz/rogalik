@@ -4,6 +4,8 @@
 #include "gamepreferences.h"
 #include "gamewindow.h"
 #include <SDL2/SDL.h>
+
+
 class Game
 {
 public:
@@ -15,7 +17,7 @@ public:
 
 private:
     GamePreferences* gamePreferences;
-    SDL_Window* window;
+    GameWindow*      gameWindow;
 };
 
 #endif // GAME_H

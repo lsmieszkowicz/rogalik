@@ -4,3 +4,8 @@ Sprite::Sprite()
 {
 
 }
+
+void Sprite::render()
+{
+
+}

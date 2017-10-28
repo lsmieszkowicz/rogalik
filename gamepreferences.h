@@ -6,6 +6,8 @@ class GamePreferences
 {
 public:
     GamePreferences();
+    bool isRunning();
+
 private:
     bool running;
 

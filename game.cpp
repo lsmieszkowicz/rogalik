@@ -7,6 +7,7 @@ using namespace std;
 Game::Game()
 {
     this->gamePreferences = new GamePreferences();
+    this->gameWindow = new GameWindow();
     SDL_Init(SDL_INIT_EVERYTHING);
 }
 
@@ -17,7 +18,10 @@ Game::~Game()
 
 void Game::run()
 {
-    cout << "Running game" << endl;
+    while(this->gamePreferences->isRunning())
+    {
+
+    }
 }
 
 void Game::handleEvents()
